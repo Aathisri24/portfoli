@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Aathi sri</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">To work in challenging and competitive environment where I can enrich my skill set and gather a 
+                            wide range of knowledge and contribute myself towards the development of the organization.</p>
+                        <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="https://i.pinimg.com/736x/39/59/bb/3959bbd7b4c553f805cc46e2b26bca12.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Aathi sri, <span class="proffesions">A Web Developer</span></h3>
+                    <p class="aboutme-deatils">To work in challenging and competitive environment where I can enrich my skill set and gather a wide range of knowledge and contribute myself towards the development of the organization.</p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience:</span> 1 years</li>
+                            <li><span>Country:</span> india</li>
+                            <li><span>Avability:</span> 24/7 </li>
+                            <li><span>Satisfied Clients:</span>5</li>
+                            <li><span>Age</span>:22</li>
+                            <li><span>Phone</span>:9488412805</li>
+                            <li><span>Language Used:</span>HTML</li>
+                            <li><span>Degree</span>:BME</li>
+                            <div class="buttonGroup"><button>Hire Me</button><button>Contact Me </button></div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:90%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SQL</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h3>Web Design</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Web Development</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h3>SEO</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h3>Graphic Designer</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h3>Software Developer</h3>
+                        
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Database Admin</h3>
+                            
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="https://i.pinimg.com/564x/2b/71/f6/2b71f6d0c9391df0bff54ee8f56e5b2b.jpg" alt=""></div>
+                    <div class="project"><img src="https://i.pinimg.com/564x/61/51/f1/6151f110d53a9cd599c29ff3cb815501.jpg" alt=""></div>
+                    <div class="project"><img src="https://i.pinimg.com/564x/b3/a1/1a/b3a11a76885e51f067433c05a1d8fb3d.jpg" alt=""></div>
+                    <div class="project"><img src="https://i.pinimg.com/564x/02/8b/f6/028bf686c805ea49f466fd641bd61e47.jpg" alt=""></div>
+                    <div class="project"><img src="https://i.pinimg.com/564x/77/ec/11/77ec1195751a802349cdfbf3ff7c2170.jpg" alt=""></div>
+                    <div class="project"><img src="https://i.pinimg.com/564x/fd/f7/a0/fdf7a015c98f5dd54db145d862c4eb93.jpg" alt=""></div>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>9488412805</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Salem</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>aathisri.s.s.biomech@gmail.com</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-globe"></i>
+                        <h3>Website</h3>
+                        <p>www.aathisri.com</p>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message <div class="SocialLinks">
+                                <i class="fa-brands fa-codepen"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form>
+                    <footer>
+                        <li>Copyright © 2024 aathi sri.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
